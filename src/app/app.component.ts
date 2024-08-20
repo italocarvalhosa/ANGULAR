@@ -3,10 +3,13 @@ import { RouterOutlet } from '@angular/router';
 import { QuartoComponenteComponent } from './quarto-componente/quarto-componente.component';
 import { QuintoComponenteComponent } from './quinto-componente/quinto-componente.component';
 import { SextoComponenteComponent } from "./sexto-componente/sexto-componente.component";
+import { SetimoComponenteComponent } from './setimo-componente/setimo-componente.component';
+import { OitavoComponenteComponent } from './oitavo-componente/oitavo-componente.component';
+
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, QuartoComponenteComponent, QuintoComponenteComponent, SextoComponenteComponent],
+  imports: [RouterOutlet, QuartoComponenteComponent, QuintoComponenteComponent, SextoComponenteComponent, SetimoComponenteComponent, OitavoComponenteComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
